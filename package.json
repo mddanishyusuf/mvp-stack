@@ -1,28 +1,32 @@
 {
-  "name": "mvp-stack",
-  "version": "1.0.0",
-  "private": true,
-  "description": "MVP Stack",
-  "keywords": [
-    "gatsby"
-  ],
-  "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
-  },
-  "dependencies": {
-    "gatsby": "^4.16.0",
-    "gatsby-plugin-image": "^2.16.1",
-    "gatsby-plugin-manifest": "^4.16.0",
-    "gatsby-plugin-sass": "^5.16.0",
-    "gatsby-plugin-sharp": "^4.16.1",
-    "gatsby-source-filesystem": "^4.16.0",
-    "gatsby-transformer-sharp": "^4.16.0",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "sass": "^1.52.3"
-  }
+      "name": "mvp-stack",
+      "version": "1.0.0",
+      "private": true,
+      "description": "MVP Stack",
+      "keywords": [
+            "gatsby"
+      ],
+      "scripts": {
+            "develop": "gatsby develop",
+            "start": "gatsby develop",
+            "build": "gatsby build",
+            "serve": "gatsby serve",
+            "clean": "gatsby clean"
+      },
+      "dependencies": {
+            "antd": "^4.21.3",
+            "gatsby": "^4.16.0",
+            "gatsby-plugin-image": "^2.16.1",
+            "gatsby-plugin-manifest": "^4.16.0",
+            "gatsby-plugin-sass": "^5.16.0",
+            "gatsby-plugin-sharp": "^4.16.1",
+            "gatsby-source-apiserver": "^2.1.7",
+            "gatsby-source-filesystem": "^4.16.0",
+            "gatsby-transformer-sharp": "^4.16.0",
+            "react": "^18.1.0",
+            "react-dom": "^18.1.0",
+            "react-helmet": "^6.1.0",
+            "react-icons": "^4.4.0",
+            "sass": "^1.52.3"
+      }
 }
